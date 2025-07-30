@@ -15,6 +15,7 @@ import { Sidebar } from "../components/Sidebar"
 export default function NewProjectPage() {
   const navigate = useNavigate()
   const [formData, setFormData] = useState({
+    
     name: "",
     clientName: "",
     pocName: "",
